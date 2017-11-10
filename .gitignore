@@ -1,0 +1,9 @@
+/target/
+/bin/
+
+# Eclipse
+.project
+.classpath
+.settings
+.cache-main
+.cache-tests

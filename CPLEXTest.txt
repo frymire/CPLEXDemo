@@ -1,0 +1,28 @@
+ PROBLEM NAME     ilog.cplex                    
+ DATA    NAME                         
+ OBJECTIVE VALUE  202.5         
+ STATUS           OPTIMAL SOLN     
+ ITERATION        2    
+
+ OBJECTIVE                             (MAX)
+ RHS                                  
+ RANGES                               
+ BOUNDS                               
+
+
+ SECTION 1 - ROWS
+
+  NUMBER  ......ROW....... AT  ...ACTIVITY...  SLACK ACTIVITY  ..LOWER LIMIT.  ..UPPER LIMIT.  .DUAL ACTIVITY
+
+       1                   BS           202.5          -202.5            NONE            NONE               1
+       2  c1               UL              20               0            NONE              20           -2.75
+       3  c2               UL              30               0            NONE              30           -0.25
+
+ SECTION 2 - COLUMNS
+
+  NUMBER  .....COLUMN..... AT  ...ACTIVITY...  ..INPUT COST..  ..LOWER LIMIT.  ..UPPER LIMIT.  .REDUCED COST.
+
+       4  x1               UL              40               1               0              40             3.5
+       5  x2               BS            17.5               2               0            NONE              -0
+       6  x3               BS            42.5               3               0            NONE              -0
+
